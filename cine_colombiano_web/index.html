@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página educativa sobre el conocimiento y la percepción del cine colombiano en estudiantes del Colegio Técnico Benjamín Herrera.">
+  <title>Cine colombiano | Conoce, mira y juega</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">CC</span>
+      <span>CINE <b>COLOMBIANO</b></span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#sobre">Sobre el cine</a>
+      <a href="#investigacion">La investigación</a>
+      <a href="#juego">Jugar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">Una mirada a nuestras historias</p>
+        <h1>El cine colombiano también cuenta <span>nuestra historia.</span></h1>
+        <p>Conoce por qué las películas nacionales pueden acercarnos a la cultura, las experiencias y las realidades de Colombia.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#juego">Jugar ahora <span aria-hidden="true">→</span></a>
+          <a class="button button-outline" href="#investigacion">Conocer la investigación</a>
+        </div>
+      </div>
+      <div class="film-art" aria-label="Ilustración decorativa de una tira de película" role="img">
+        <div class="film-frame frame-one"><span>CO</span></div>
+        <div class="film-frame frame-two"><span>LOM</span></div>
+        <div class="film-frame frame-three"><span>BIA</span></div>
+        <div class="film-caption">Historias que nos representan</div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="section-heading">
+        <p class="eyebrow">Más que entretenimiento</p>
+        <h2>¿Por qué hablar de cine colombiano?</h2>
+        <p>Las películas pueden mostrar costumbres, lugares, conflictos y distintas formas de vivir en el país. Conocerlas ayuda a conversar sobre nuestra cultura y a mirar la realidad desde otras perspectivas.</p>
+      </div>
+      <div class="info-grid">
+        <article class="info-card">
+          <span class="card-icon">◉</span>
+          <h3>Identidad y cultura</h3>
+          <p>Las historias audiovisuales pueden representar tradiciones, regiones y experiencias de las personas.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-icon">▤</span>
+          <h3>Realidad social</h3>
+          <p>El cine puede abordar temas sociales y culturales e invitar a reflexionar sobre ellos.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-icon">✳</span>
+          <h3>Aprender y conversar</h3>
+          <p>Un cineforo permite compartir interpretaciones y escuchar diferentes puntos de vista.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="stats-section" id="investigacion">
+      <div class="section-heading">
+        <p class="eyebrow">Lo que encontró el estudio</p>
+        <h2>El cine colombiano entre estudiantes</h2>
+        <p>La investigación consultó a 45 estudiantes de grados 9.º, 10.º y 11.º del Colegio Técnico Benjamín Herrera.</p>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card"><strong>77,8%</strong><p>había visto al menos una película colombiana.</p></article>
+        <article class="stat-card"><strong>82,2%</strong><p>tenía interés en aprender más sobre cine colombiano en el colegio.</p></article>
+        <article class="stat-card"><strong>88,9%</strong><p>consideró importante o muy importante que Colombia produzca sus propias películas.</p></article>
+        <article class="stat-card"><strong>68,9%</strong><p>no conocía la legislación que incentiva el cine nacional.</p></article>
+      </div>
+      <p class="source-note">Fuente: encuesta de la investigación escolar. Los porcentajes describen las respuestas de las 45 personas participantes.</p>
+    </section>
+
+    <section class="section proposal-section">
+      <div class="proposal-copy">
+        <p class="eyebrow">Ideas para aprender</p>
+        <h2>¿Cómo se puede divulgar el cine?</h2>
+        <p>Según las preferencias recogidas en la encuesta, algunas actividades que podrían explorarse en el colegio son:</p>
+        <ul class="proposal-list">
+          <li><span>01</span><div><b>Cineforos</b><small>Ver una película o fragmento y conversar sobre sus temas.</small></div></li>
+          <li><span>02</span><div><b>Presentaciones cortas</b><small>Compartir datos sobre películas, directores y actores colombianos.</small></div></li>
+          <li><span>03</span><div><b>Actividades prácticas</b><small>Explorar cómo se construye una escena o se cuenta una historia.</small></div></li>
+        </ul>
+        <p class="source-note">Estas son propuestas para considerar; la investigación no implementó ni evaluó una intervención pedagógica.</p>
+      </div>
+      <div class="clapper-art" aria-hidden="true">
+        <div class="clapper-top"></div>
+        <div class="clapper-body"><span>REC</span><span class="rec-dot"></span><small>UNA HISTORIA<br>POR CONTAR</small></div>
+      </div>
+    </section>
+
+    <section class="game-section" id="juego">
+      <div class="game-intro">
+        <p class="eyebrow">Pon a prueba lo que sabes</p>
+        <h2>Reto: cine colombiano</h2>
+        <p>Responde 8 preguntas sobre el cine colombiano, su relación con la cultura y algunos resultados de la investigación. Lee la explicación después de cada respuesta.</p>
+        <div class="game-meta"><span>8 preguntas</span><span>Opción múltiple</span><span>Con explicación</span></div>
+      </div>
+
+      <div class="quiz-card" id="quiz-card">
+        <div class="quiz-topline">
+          <span id="question-counter">Pregunta 1 de 8</span>
+          <span id="score-label">Puntos: 0</span>
+        </div>
+        <div class="progress-track" aria-label="Progreso del juego"><div class="progress-fill" id="progress-fill"></div></div>
+        <div id="quiz-content">
+          <h3 id="question-text">Preparando pregunta...</h3>
+          <div class="answer-list" id="answer-list"></div>
+          <div class="feedback" id="feedback" aria-live="polite" hidden></div>
+          <div class="quiz-controls">
+            <button class="button button-primary" id="next-button" disabled>Siguiente pregunta →</button>
+          </div>
+        </div>
+        <div id="result-screen" hidden>
+          <div class="result-icon" id="result-icon">★</div>
+          <p class="eyebrow">Reto terminado</p>
+          <h3 id="result-title">¡Buen trabajo!</h3>
+          <p class="result-score" id="result-score">Obtuviste 0 de 8 puntos.</p>
+          <p id="result-message"></p>
+          <button class="button button-primary" id="restart-button">Volver a jugar ↻</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">CC</span><span>CINE <b>COLOMBIANO</b></span></a>
+    <p>Proyecto escolar de divulgación cinematográfica · Colegio Técnico Benjamín Herrera · Bogotá D. C. · 2026</p>
+  </footer>
+</body>
+</html>
